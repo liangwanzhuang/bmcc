@@ -1,0 +1,362 @@
+@charset "gb2312";
+/* CSS Document */
+body               {margin:0px auto;font-size:9pt;line-height:130%;}
+table,td,ul,li     {font-size:9pt;font-family:"宋体";}
+td                 {color:#333333}
+img                {border:0}
+a                  {text-decoration:none;}
+form               {padding:0;margin:0}
+p                  {text-indent:2em}
+input              {font-size:12px}
+
+/* 当前位置的样式 */
+.location          {float:left;line-height:24px;color:#545A62;font-family:Verdana, Arial, Helvetica, sans-serif}
+.location span     {color:#DB2B10}
+.location a        {color:#545A62;}
+.location a:hover  {color:#DB2B10;text-decoration:underline}
+
+
+/* 头部框架样式 */
+#top               {width:100%;height:120px}
+.top-bg            {background:url(../images/top/top-bg.jpg)}
+#topnav            {border-top:1px solid #BCCEEA;border-bottom:1px solid #B2B9C0;height:28px}
+#topnav .lefttd    {background:url(../images/top/leftbg.gif);width:220px;color:#52565D;font-weight:bold;text-align:center;}
+#topnav .lefttd .shadow         { position:absolute;left:0px;top:66px;text-align:center;width:220px;letter-spacing:1.5;filter:
+								  Dropshadow(offx=1,offy=0,color=white)
+								  Dropshadow(offx=0,offy=1,color=white)
+								  Dropshadow(offx=0,offy=-1,color=white)
+								  Dropshadow(offx=-1,offy=0,color=white);}
+#topnav .righttd                { background:url(../images/top/rightbg.gif);text-align:left;}
+#topnav .righttd  .box          { position:relative;margin-left:30px;padding-top:3px;}
+#topnav .righttd  .box a        { color:#3865A9;width:110px;letter-spacing:1.5;font-size:14px;font-weight:bold;filter:
+								  Dropshadow(offx=1,offy=0,color=white)
+								  Dropshadow(offx=0,offy=1,color=white)
+								  Dropshadow(offx=0,offy=-1,color=white)
+								  Dropshadow(offx=-1,offy=0,color=white);}
+#topnav .righttd  .box a:hover  { color:#DB2B10;width:110px;letter-spacing:1.5;filter:
+								  Dropshadow(offx=1,offy=0,color=white)
+								  Dropshadow(offx=0,offy=1,color=white)
+								  Dropshadow(offx=0,offy=-1,color=white)
+								  Dropshadow(offx=-1,offy=0,color=white);}
+#topnav .righttd  .box a.on     { color:#DB2B10;width:110px;letter-spacing:1.5;filter:
+								  Dropshadow(offx=1,offy=0,color=white)
+								  Dropshadow(offx=0,offy=1,color=white)
+								  Dropshadow(offx=0,offy=-1,color=white)
+								  Dropshadow(offx=-1,offy=0,color=white);}	
+#topnav .fullscreen             {text-align:center;width:300px;color:#000000}	
+#topnav .fullscreen a           {float:left;padding-top:3px;color:#000000}	
+#topnav .fullscreen a:hover     {color:#04419E;text-decoration:underline}	
+/* 通知公告的样式 */								  						  			  
+.table-notice           {color:#3B3B3B;width:100%;}
+.table-notice td        {background:url(../images/notice-icon.gif) no-repeat 5px 15px;height:20px;text-align:left;padding-left:5px;padding-top:8px;color:#3B3B3B}
+/* 首页面其他表格的样式 */		
+.table-list              {color:#3b3b3b;font-size:12px}
+.table-list th           {border-bottom:1px solid #E5E5E5;color:#C66B00;padding:2px;line-height:28px}
+.table-list td           {border-bottom:1px solid #E5E5E5;padding:2px;line-height:21px;}
+.link-gray              {color:#3b3b3b}
+a.link-gray:hover       {color:#2D62AE;text-decoration:underline}
+
+.div-tit                {position:relative;background:url(../images/home/tit-bgicon.gif) no-repeat 0 0;text-align:left;padding-left:20px;font-weight:bold;}
+.div-tit span           {color:#174995;width:100px;letter-spacing:1.5;
+						 filter:
+						  Dropshadow(offx=1,offy=0,color=white)
+						  Dropshadow(offx=0,offy=1,color=white)
+						  Dropshadow(offx=0,offy=-1,color=white)
+						  Dropshadow(offx=-1,offy=0,color=white);
+                           }			
+.red                    {position:relative;}
+.red a                  {width:30px;color:#DB2B10;letter-spacing:1.5;
+                          filter:
+						  Dropshadow(offx=1,offy=0,color=white)
+						  Dropshadow(offx=0,offy=1,color=white)
+						  Dropshadow(offx=0,offy=-1,color=white)
+						  Dropshadow(offx=-1,offy=0,color=white);}
+.red a:hover            {text-decoration:underline}
+.tit-2line              {width:100%;border:1px solid #DCDCDC;border-top:0;border-bottom:0;color:#3b3b3b}
+.tool                   {background:url(../images/home/btn1.gif);width:130px;color:#3B3B3B;text-align:left;height:30px;margin:5px;padding-left:20px;padding-top:10px}
+a.tool:hover             {background:url(../images/home/btn1-1.gif);color:#0442A1;}
+.red2                    {color:#DB2B10;}
+a.red2:hover             {text-decoration:underline}
+
+/* 院内汇总信息的样式*/
+.box-hzxx                {margin:5px;padding-left:5px;color:#555555;line-height:1.8;text-align:left;margin-bottom:0;margin-right:0;height:100%;}
+/* 首页面院内信息的标签样式 */
+.home-lable              {background:url(../images/home/lable-bg.gif);height:30px;padding-left:10px}
+.home-lable a            {background:url(../images/home/lable-off.gif);width:89px;line-height:26px;color:#3B3B3B;text-align:center;margin-top:4px;margin-right:4px}
+.home-lable a:hover      {background:url(../images/home/lable-on.gif);color:#1254B9;}
+.home-lable a.on         {background:url(../images/home/lable-on.gif);width:89px;line-height:26px;color:#1254B9;text-align:center;margin-top:4px;margin-right:4px}
+
+.back                    {border-bottom:1px solid #D8D8D8;text-align:left;color:#0957A5;}
+.back a                  {color:#0957A5}
+.back a:hover            {color:#D61E02;text-decoration:underline}
+/* 左列样式 */
+#left-list               {border:1px solid #C6CCD4;background:#EFF4F8;width:210px;margin-bottom:6px}
+.firstline               {padding-left:5px;color:#ffffff;font-weight:bold;background:#7C8388 url(../images/left/first-rightbg.gif) no-repeat right;line-height:20px;margin:1px}
+.navbox                  {padding:5px;overflow:auto;height:100%;width:100%;
+                           scrollbar-face-color:#ffffff;
+						  scrollbar-highlight-color:#7F9DB9;
+						  scrollbar-shadow-color:#7F9DB9;
+						  scrollbar-3dlight-color:white;
+						  scrollbar-arrow-color:#6397C8;
+						  scrollbar-track-color:white;
+						  scrollbar-darkshadow-color:white; 
+                            }
+
+.nav1                    {position:relative;background:#A1B5C9 url(../images/left/nav1-bgright.gif) no-repeat right;width:100%;border:1px solid #B9C1C9;height:24px;margin-top:5px}
+.nav1 a.left              {width:170px;color:#4E6081;font-weight:bold;position:absolute;padding:4px;cursor:hand;
+                           filter:
+						   Dropshadow(offx=1,offy=0,color=white)
+						   Dropshadow(offx=0,offy=1,color=white)
+						   Dropshadow(offx=0,offy=-1,color=white)
+						   Dropshadow(offx=-1,offy=0,color=white);
+						   }
+.nav1 a.left:hover        {color:#D61E02;
+						   }
+.nav1 a.left-on           {width:170px;color:#D61E02;font-weight:bold;position:absolute;padding:4px;cursor:hand;
+                           filter:
+						   Dropshadow(offx=1,offy=0,color=white)
+						   Dropshadow(offx=0,offy=1,color=white)
+						   Dropshadow(offx=0,offy=-1,color=white)
+						   Dropshadow(offx=-1,offy=0,color=white);
+						   }
+						   
+
+.nav1 img                {float:right;margin-right:5px;margin-top:5px;cursor:hand}
+
+.nav2-box                {background:#ffffff;border:1px solid #C6CCD4;border-top:0;margin-bottom:5px;padding:3px;padding-top:0}
+.nav2-off                {background:#E2EAF2 url(../images/left/nav2-icon.gif) no-repeat 5px 7px;line-height:20px;width:100%;color:#222222;padding-left:14px;padding-top:2px;margin-top:3px}
+a.nav2-off:hover         {color:#D61E02;text-decoration:underline;}
+.nav2-on                 {background:#E2EAF2 url(../images/left/nav2-icon.gif) no-repeat 5px 7px;line-height:20px;width:100%;color:#D61E02;padding-left:14px;padding-top:2px;margin-top:3px}
+
+.nav3-box                {padding-left:10px;}
+.nav3-off                {color:#222527;background:url(../images/left/nav3-bg.gif) repeat-x left bottom;line-height:26px;width:100%}
+a.nav3-off:hover         {color:#DB2B10}
+.nav3-on                 {color:#DB2B10;background:url(../images/left/nav3-bg.gif) repeat-x left bottom;line-height:26px;width:100%}
+
+.nav4-box                {padding-left:20px;}
+.nav4-off                {width:100%;color:#0E5BA8;line-height:22px;}
+a.nav4-off:hover         {color:#DB2B10;text-decoration:underline}  
+.nav4-on                 {width:100%;color:#DB2B10;line-height:22px;}
+
+/* 框架内右侧的样式 */
+#container               {width:100%;padding-right:10px;height:100%;}
+
+#box                     {width:100%;border:1px solid #D0D8E3;background:#FBFBFB;}
+#box .toptd              {line-height:28px;background:#F5F5F5  url(../images/right/toptd-bottom.gif) repeat-x left bottom;
+                          text-align:center;font-size:14px;font-weight:bold;color:#0E5BA8}
+#box .middletd           {background:#ffffff}
+
+#box .page               {line-height:28px;background:#F5F5F5  url(../images/right/toptd-bottom.gif)  repeat-x left top;
+                          text-align:right;color:#666666;padding-right:10px;font-weight:bold}/* 分页所在单元格样式 */
+#box .page input         {width:26px;border:1px solid #D3D3D3;color:#FF0000}						  
+#box2                    {width:100%;height:100%}
+#box2 .first             {padding:5px 10px;height:30px;color:#3B3B3B}/* 第一行位置，通常放置按钮和查询 */             
+#box2 #content2           {width:expression(document.body.clientWidth <= 1024 ? "780px" : "100%" );/*针对IE*/
+                            overflow:auto;padding:10px;padding-top:0px;height:300px;vertical-align:top;
+                          scrollbar-face-color:#ffffff;
+						  scrollbar-highlight-color:#7F9DB9;
+						  scrollbar-shadow-color:#7F9DB9;
+						  scrollbar-3dlight-color:white;
+						  scrollbar-arrow-color:#6397C8;
+						  scrollbar-track-color:white;
+						  scrollbar-darkshadow-color:white;    }/* 该处为表格所在的div样式*/ 
+#box2 .content2           {width:expression(document.body.clientWidth <= 1024 ? "780px" : "100%" );/*针对IE*/
+                            overflow:auto;padding:10px;padding-top:0px;height:300px;vertical-align:top;
+                          scrollbar-face-color:#ffffff;
+						  scrollbar-highlight-color:#7F9DB9;
+						  scrollbar-shadow-color:#7F9DB9;
+						  scrollbar-3dlight-color:white;
+						  scrollbar-arrow-color:#6397C8;
+						  scrollbar-track-color:white;
+						  scrollbar-darkshadow-color:white;    }/* 该处为表格所在的div样式*/						  
+#box2 .content3           {width:expression(document.body.clientWidth <= 780 ? "580px" : "100%" );/*针对IE*/
+                          overflow:auto;padding:10px;padding-top:5px;height:100%;vertical-align:top;
+                          scrollbar-face-color:#ffffff;
+						  scrollbar-highlight-color:#7F9DB9;
+						  scrollbar-shadow-color:#7F9DB9;
+						  scrollbar-3dlight-color:white;
+						  scrollbar-arrow-color:#6397C8;
+						  scrollbar-track-color:white;
+						  scrollbar-darkshadow-color:white;   }/* 该处为表格所在的div样式*/ 
+#box2 .content4           {width:expression(document.body.clientWidth <= 780 ? "595px" : "100%" );/*针对IE*/
+                          overflow:auto;padding:10px;padding-top:5px;height:100%;vertical-align:top;
+                          scrollbar-face-color:#ffffff;
+						  scrollbar-highlight-color:#7F9DB9;
+						  scrollbar-shadow-color:#7F9DB9;
+						  scrollbar-3dlight-color:white;
+						  scrollbar-arrow-color:#6397C8;
+						  scrollbar-track-color:white;
+						  scrollbar-darkshadow-color:white;   }/* 该处为表格所在的div样式*/ 						  
+#box2 .content          { width:100%;
+                          overflow:auto;padding:10px;padding-top:5px;height:100%;vertical-align:top;
+                          scrollbar-face-color:#ffffff;
+						  scrollbar-highlight-color:#7F9DB9;
+						  scrollbar-shadow-color:#7F9DB9;
+						  scrollbar-3dlight-color:white;
+						  scrollbar-arrow-color:#6397C8;
+						  scrollbar-track-color:white;
+						  scrollbar-darkshadow-color:white;    }/* 该处为表格所在的div样式*/ 
+
+.table-normal            {width:100%;background:#D8D8D8;}
+.table-normal .title     {background:url(../images/right/thbg.gif)  repeat-x left top;height:24px;color:#525252;font-weight:bold;text-align:center}
+.table-normal td         {padding:5px 2px;color:#3C3C3C}
+.table-normal .title2    {background:url(../images/right/thbg2.gif)  repeat-x left top;height:48px;color:#525252;font-weight:bold;text-align:center}
+
+
+/* 新增及查询处的样式*/ 
+.button0                 {background:url(../images/right/button0.gif);width:77px;height:22px;color:#0957A5;border:0;padding:0;cursor:hand}
+.long                    {background:url(../images/right/button0-long.gif);width:113px;height:22px;color:#0957A5;border:0;padding:0;cursor:hand}
+
+.input0                  {border:1px solid #7f9db9;color:#333333;font-size:12px;height:20px}
+.select0                 {border:1px solid #7f9db9;height:20px}
+
+.table-add               {width:100%;background:#D8D8D8;}
+.table-add .left         {width:120px;text-align:right;color:#0759AB;background:#F4F4F4;padding-top:3px;padding-bottom:3px}
+.table-add .left2        {width:150px;text-align:right;color:#0759AB;background:#F4F4F4;padding-top:3px;padding-bottom:3px}
+.table-add td            {text-align:left;padding-left:3px;color:#646464;background:#ffffff;padding-top:3px;padding-bottom:3px}
+.table-add td textarea   {width:92%;height:100px;overflow:auto;font-size:12px}
+.table-add td .input1    {width:80%;height:18px;border:1px solid #7f9db9;font-size:12px}/**此文本框样式适用于表格为四列时使用**/
+.table-add td .input2    {width:220px;height:18px;border:1px solid #7f9db9;font-size:12px}/**此文本框样式适用于表格为两列时使用**/
+.table-add td .select2   {width:220px;height:18px;border:1px solid #7f9db9;font-size:12px;}
+.table-add td .select3   {width:220px;border:1px solid #7f9db9;font-size:12px}/**此样式适用于多选的select框**/
+.table-add td .button1   {background:#85ADD1;height:20px;font-size:12px;color:white;border:0;width:60px}
+.table-add td .button2   {background:#85ADD1;height:20px;font-size:12px;color:white;border:0;width:100px;margin-top:5px;margin-bottom:10px}
+
+
+/**车辆预订图中色块的样式**/
+.orderpic                {}
+.orderpic td             {padding:0px}
+.yellowbg                {background:url(../images/xingzheng/cars/yellow.gif);height:13px}
+.redbg                   {background:url(../images/xingzheng/cars/red.gif);height:13px}
+.greenbg                 {background:url(../images/xingzheng/cars/green.gif);height:13px}
+
+/**行政管理档案工资 树结构的样式**/
+.tree                    {width:100%;text-align:left;color:#4F6F4D;line-height:1.8;height:100%;overflow:auto;padding-top:2px;
+                          scrollbar-face-color:#ffffff;
+						  scrollbar-highlight-color:#C3E1C3;
+						  scrollbar-shadow-color:#C3E1C3;
+						  scrollbar-3dlight-color:white;
+						  scrollbar-arrow-color:#90D090;
+						  scrollbar-track-color:white;
+						  scrollbar-darkshadow-color:white;   }
+.tree a                  {background:url(../images/xingzheng/salary/icon1.gif) no-repeat 10 5;height:20px;color:#4F6F4D;padding-left:24px;width:100%;margin:2px;margin-top:0;}
+.tree a:hover            {background:#C6F0C6 url(../images/xingzheng/salary/icon2.gif) no-repeat 10 5;color:#0A0A0A;}
+.tree a.on               {background:#C6F0C6 url(../images/xingzheng/salary/icon2.gif) no-repeat 10 5;height:20px;color:#0A0A0A;padding-left:24px;width:100%;margin:2px;margin-top:0;}
+
+/**系统设置组织机构的树结构的样式*/
+.tree2                    {width:100%;text-align:left;color:#4F6F4D;line-height:1.8;height:100%;overflow:auto;padding-top:2px;     scrollbar-face-color:#ffffff;
+						  scrollbar-highlight-color:#C3E1C3;
+						  scrollbar-shadow-color:#C3E1C3;
+						  scrollbar-3dlight-color:white;
+						  scrollbar-arrow-color:#90D090;
+						  scrollbar-track-color:white;
+						  scrollbar-darkshadow-color:white;   
+						  }
+.tree2 .biaoti			 {background:#C6F0C6;height:20px;color:#0A0A0A;padding-left:5px}	
+.tree2 .biaoti a          {color:#0A0A0A;text-decoration:none}	
+.tree2 .biaoti a:hover    {text-decoration:underline}	
+.tree2 .biaoti a.on       {color:#0A0A0A;text-decoration:underline}
+.tree2 .list              {padding-left:1px}
+.tree2 .list a            {background:url(../images/xingzheng/salary/icon1.gif) no-repeat 10 5;height:20px;color:#4F6F4D;padding-left:24px;width:100%;margin:2px;margin-top:0;}
+.tree2 .list a:hover      {background:url(../images/xingzheng/salary/icon3.gif) no-repeat 10 5;color:#038A03;text-decoration:underline;font-weight:bold}
+.tree2 .list a.on         {background:url(../images/xingzheng/salary/icon3.gif) no-repeat 10 5;height:20px;color:#038A03;font-weight:bold;padding-left:24px;width:100%;margin:2px;margin-top:0;text-decoration:underline}
+
+
+
+
+/**角色维护中的部分样式**/  
+.role-box                {background:#f8f8f8;padding:5px;margin-right:4px;height:150px;border:1px solid #eeeeee}
+span.name                {width:100px;float:left} 
+span.name2               {width:140px;float:left}         
+.blue                    {color:#3865A9}/**链接为蓝色**/
+a.blue:hover             {color:#D61E02;text-decoration:underline}
+
+/**项目管理明细弹开窗口的样式**/
+.table-mx              {color:#3b3b3b;background-color:#999999;width:100%;margin-bottom:10px;}
+.mxtit                 {line-height:30px;font-size:16px;font-weight:bold;letter-spacing:1px;text-align:center}
+.table-mx th           {padding:2px;padding-left:5px;background-color:#EBF5FF;font-weight:bold;height:22px}
+.table-mx td           {padding:2px;padding-left:5px;background-color:#ffffff;height:22px;}
+.div-mx                {height:100%;overflow-y:auto;padding:5px;
+                          scrollbar-face-color:#ffffff;
+						  scrollbar-highlight-color:#7F9DB9;
+						  scrollbar-shadow-color:#7F9DB9;
+						  scrollbar-3dlight-color:white;
+						  scrollbar-arrow-color:#6397C8;
+						  scrollbar-track-color:white;
+						  scrollbar-darkshadow-color:white;  }
+.nav-btn			   {background:url(../images/opener/nav-btn.gif) no-repeat;width:57px;height:20px;text-align:center;border:0px;color:#3B3B3B;padding-top:2px;cursor:hand}
+
+/**项目设计阶段的button样式**/
+.jieduan-gray          {background:url(../images/project/btn.gif);width:149px;text-align:center;line-height:24px;color:#333333;display:block;margin:5px;}
+.jieduan-red           {background:url(../images/project/btn.gif);width:149px;text-align:center;line-height:24px;color:#DB2B10;display:block;margin:5px;}
+.jieduan-green         {background:url(../images/project/btn.gif);width:149px;text-align:center;line-height:24px;color:#0D7F07;display:block;margin:5px;}
+/**个人事务中邮件表格样式**/
+.table-mail{line-height:23px;}
+.table-mail tr td{border-bottom:solid 1px #DDDDDD}
+.table-mail-title{background:url(../images/right/thbg.gif)  repeat-x left top;height:25px;color:#525252;font-weight:bold;text-align:center}
+.link-wd              {color:#333333;font-weight:bold;}
+a.link-wd:hover       {color:#2D62AE;text-decoration:underline}
+.link-yd              {color:#333333;}
+a.link-yd:hover       {color:#2D62AE;text-decoration:underline}
+.mail                 {width:100%;overflow:auto;height:100%;vertical-align:top;
+                          scrollbar-face-color:#ffffff;
+						  scrollbar-highlight-color:#7F9DB9;
+						  scrollbar-shadow-color:#7F9DB9;
+						  scrollbar-3dlight-color:white;
+						  scrollbar-arrow-color:#6397C8;
+						  scrollbar-track-color:white;
+						  scrollbar-darkshadow-color:white;    }/* 该处为表格所在的div样式*/ 
+ 
+/**项目流程管理两种button样式**/
+table.liucheng                {}
+table.liucheng td             {padding-top:2px;padding-bottom:2px}
+table.liucheng .gray          {background:url(../images/project/lc-btn.gif);width:142px;height:37px;text-align:center;color:#333333;display:block;font-size:13px;padding-top:5px;border:0;cursor:hand}
+table.liucheng .red           {background:url(../images/project/lc-btn-red.gif);width:142px;height:37px;text-align:center;color:#DB2B10;display:block;font-size:13px;padding-top:5px;border:0;cursor:hand}
+table.liucheng .green         {background:url(../images/project/lc-btn-green.gif);width:142px;height:37px;text-align:center;color:#0D7F07;display:block;font-size:13px;padding-top:5px;border:0;cursor:hand}
+table.liucheng .gray2         {background:url(../images/project/lc-btn2.gif);width:106px;height:48px;text-align:center;color:#333333;display:block;font-size:13px;padding-top:0px;border:0;cursor:hand}
+table.liucheng .red2          {background:url(../images/project/lc-btn2.gif);width:106px;height:48px;text-align:center;color:#DB2B10;display:block;font-size:13px;padding-top:0px;border:0;cursor:hand}
+table.liucheng .green2        {background:url(../images/project/lc-btn2.gif);width:106px;height:48px;text-align:center;color:#0D7F07;display:block;font-size:13px;padding-top:0px;border:0;cursor:hand}
+.lc-bg1                       {background:url(../images/project/lc-bg1.gif) no-repeat center bottom}
+.lc-bg3                       {background:url(../images/project/lc-bg3.gif) no-repeat 10px 0px;height:18px;color:#666666;padding-left:20px}
+.lc-bg3 a.gray               {color:#666666;background:none;padding:0;margin:0;height:16px;font-size:12px;text-align:left;width:130px;}
+.lc-bg3 a.gray:hover         {color:#666666;background:none;}
+.lc-bg3 a.red                {color:#DB2B10;background:none;padding:0;margin:0;height:16px;font-size:12px;text-align:left;width:130px;}
+.lc-bg3 a.red:hover          {color:#DB2B10;background:none;}
+.lc-bg3 a.green              {color:#0D7F07;background:none;padding:0;margin:0;height:16px;font-size:12px;text-align:left;width:130px;}
+.lc-bg3 a.green:hover        {color:#0D7F07;background:none;}
+.ta                          {width:92%;height:80px;overflow:auto;font-size:12px}
+
+
+/**系统权限设置中的样式**/
+div.quanxian                 { width:100%;
+                          overflow:auto;padding:10px;padding-left:50px;height:100%;vertical-align:top;
+                          scrollbar-face-color:#ffffff;
+						  scrollbar-highlight-color:#7F9DB9;
+						  scrollbar-shadow-color:#7F9DB9;
+						  scrollbar-3dlight-color:white;
+						  scrollbar-arrow-color:#6397C8;
+						  scrollbar-track-color:white;
+						  scrollbar-darkshadow-color:white;    }
+						  
+div.quanxian img             {width:18px;float:left;cursor:hand;}
+div.quanxian a               {font-size:14px;font-weight:normal;color:#525252;}
+div.quanxian a:hover         {color:#0957A5;text-decoration:underline}
+div.menu1                    {width:100%;background:url(../images/system/left-line.gif) repeat-y 3px;}
+div.menu2                    {margin-left:30px;width:100%;margin-bottom:10px;background:url(../images/system/left-line.gif) repeat-y 3px;}
+div.menu3                    {margin-left:30px;width:100%;margin-bottom:5px;background:url(../images/system/left-line.gif) repeat-y 3px;}
+div.menu4                    {margin-left:30px;width:100%;background:url(../images/system/left-line.gif) repeat-y 3px;}
+
+
+
+.table-normal th {
+font-size: 12px;
+font-weight: bold;
+text-align: center;
+color: white;
+position:relative;
+cursor: default;
+top: expression(document.getElementById("content2").scrollTop-1); /*IE5+ only*/
+z-index: 20;
+left: expression(parentNode.parentNode.parentNode.parentNode.scrollLeft); /*IE5+ only*/
+}
+

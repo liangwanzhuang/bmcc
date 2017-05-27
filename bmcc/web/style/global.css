@@ -1,0 +1,113 @@
+@charset "gb2312";
+/* CSS Document */
+body               {margin:0px;font-size:13px;}
+table,td,ul,li     {font-size:13px;font-family:"宋体";}
+td                 {color:#333333}
+img                {border:0}
+a                  {text-decoration:none;}
+form               {padding:0;margin:0}
+p                  {text-indent:2em}
+input              {font-size:13px;}
+/************************以下为头部样式************************/
+a.red              {color:#D70303;}
+a.red:hover        {text-decoration:underline;}
+.red               {color:#D70303}
+.nav-off           {background:url(../images/frame/top-off.jpg);width:83px;height:38px;color:#333333;margin-right:10px;margin-top:15px;font-weight:bold;text-align:center;padding-top:9px;}
+a.nav-off:hover    {background-image:url(../images/frame/top-on.jpg);color:#D70303;}
+.nav-on            {background:url(../images/frame/top-on.jpg);width:83px;height:38px;color:#D70303;margin-right:10px;margin-top:15px;font-weight:bold;text-align:center;padding-top:9px;}
+/************************以下为左侧和右侧样式************************/
+.left-title		   {background:url(../images/frame/left-title.jpg) no-repeat;color:#FFFFFF;width:178px;height:26px;padding-left:10px;}
+.left-title2		   {background:url(../images/Email/left-title.jpg) no-repeat;color:#FFFFFF;width:180px;height:26px;font-weight:bold;padding-left:10px;}
+
+.nav2-on	  	   {background:url(../images/frame/left-nav2.jpg);width:177px;height:26px;padding-left:20px;padding-top:9px;color:#D70303}
+.nav2-off	  	   {background:url(../images/frame/left-nav2.jpg);width:177px;height:26px;padding-left:20px;padding-top:9px;color:#333333}
+.nav2-off-gray 	   {background:url(../images/frame/left-nav2.jpg);width:177px;height:26px;padding-left:20px;padding-top:9px;color:#999999}
+a.nav2-off:hover   {background:url(../images/frame/left-nav2.jpg);color:#D70303}
+
+.nav4-on	  	   {background:url(../images/Email/left-nav2.jpg);width:175px;height:22px;padding-left:20px;padding-top:6px;color:#D70303;margin-top:6px;margin-left:2px;}
+.nav4-off	  	   {background:url(../images/Email/left-nav2.jpg);width:175px;height:22px;padding-left:20px;padding-top:6px;color:#333333;margin-top:6px;margin-left:2px;}
+
+
+
+
+.nav3-box          {padding-left:7px;}
+.nav3-off          {color:#222527;width:100%;padding-top:7px;}
+a.nav3-off:hover   {color:#DB2B10;}
+.nav3-on           {color:#DB2B10;width:100%;padding-top:7px;}
+
+.right-td		   {background:url(../images/frame/right-bg.jpg) repeat-y;width:7px;}
+.right-td2		   {background:url(../images/Email/right-bg.jpg) repeat-y;width:7px;}
+
+/************************以下为列表样式************************/
+.table-list        {background-color:#9AC1E0;line-height:24px;text-align:center;width:100%}
+.table-list th     {background:#E3F7FE;color:#333333;font-weight:normal;}
+.table-list-tr1    {background:white;}
+.table-list-tr2    {background:#F7F7F7;}
+.table-list td a   {color:#136F98;text-decoration:underline;}
+.table-list td a:hover{text-decoration:underline;color:#136F98;}
+.title		  	   {background:url(../images/right/title-bg.jpg) repeat-x;height:24px;text-align:center;font-size:14px;font-weight:bold;color:#32A6A1;letter-spacing:4px;padding-top:3px;}
+.email-title		  	   {background:url(../images/Email/title-bg.jpg) repeat-x;height:25px;text-align:center;font-size:14px;font-weight:bold;color:#2B6DC4;letter-spacing:4px;padding-top:3px;border-left:#9AC1E0 1px solid;border-right:#9AC1E0 1px solid;}
+
+/************************以下为按钮样式************************/
+.btn			   {background:url(../images/right/btn.jpg);width:61px;height:21px;text-align:center;color:#2F6CC5;border:0;padding-top:4px;cursor:pointer;margin-left:5px}
+.btn-long		   {background:url(../images/right/btn-long.jpg);width:87px;height:21px;text-align:center;color:#2F6CC5;border:0;padding-top:4px;}
+.btn-long2		   {background:url(../images/right/btn-long2.jpg);width:142px;height:21px;text-align:center;color:#2F6CC5;border:0;padding-top:4px;}
+/************************以下为输入框样式************************/
+.input			   {border:1px solid #9AC1E0;width:120px;}
+.input-bh		   {border:1px solid #CCC;}
+.input-page		   {border:1px solid #9AC1E0;width:25px;}
+/************************以下为新增表格相关样式************************/
+.table-add               {background-color:#9AC1E0;line-height:20px;}
+.table-add .td-left      {text-align:right;background-color:#D9F3FF;padding:2px;width:17%;text-valign:top}
+.table-add .td-right     {text-align:left;background-color:white;padding:2px}
+.table-add td .input1    {width:90%;height:18px;border:1px solid #7f9db9;}
+.table-add td .select1   {width:90%;height:18px;border:1px solid #7f9db9;}
+.table-add td .textarea  {width:100%;height:100px;overflow:auto;border:1px solid #9AC1E0;scrollbar-face-color:#ffffff;scrollbar-highlight-color:#7F9DB9;scrollbar-shadow-color:#7F9DB9;scrollbar-3dlight-color:white;scrollbar-arrow-color:#6397C8;scrollbar-track-color:white;scrollbar-darkshadow-color:white;}
+.btn-diwei		 {background:#0066CC;border:1px solid #003399;color:#FFFFFF;text-align:center;height:18px;}
+.btn-diwei2		 {background:#E80B0B;border:1px solid #A50000;color:#FFFFFF;text-align:center;height:18px;}
+
+.div-table		   	 {height:94%;width:99%;overflow:auto;scrollbar-face-color:#ffffff;scrollbar-highlight-color:#7F9DB9;scrollbar-shadow-color:#7F9DB9;scrollbar-3dlight-color:white;scrollbar-arrow-color:#6397C8;scrollbar-track-color:white;scrollbar-darkshadow-color:white;}
+
+/************************弹开窗口的样式************************/
+.openbtn                 {background:url(../images/open/button.gif);width:67px;height:19px;color:white;font-size:13px;font-weight:bold;border:0}
+
+.login					 {text-align:center;color:#D4EFFF;letter-spacing:3px;padding-top:10px;}
+
+/************************以下为受理页面的样式************************/
+.table-print {background:#BFBFBF;}
+.table-print td {height:20px;}
+.table-print1 {background:#000000;font-size:14px;border:1px solid #000;text-align:center;}
+.table-print1_1 {background:#000000;font-size:14px;border:1px solid #000;}
+.table-print1 td {background:#FFFFFF;color:#000000;height:35px;text-align:center;}
+.table-print1_1 td {background:#FFFFFF;color:#000000;height:35px;}
+.table-print-td2{background:#FFF;height:20px;}
+.table-print-td1{background:#EFEFEF;height:20px;text-align:center;}
+.table-print-td1_1{background:#EFEFEF;height:20px;text-align:right;}
+.table-print-td3{background:#EFEFEF;height:20px;text-align:center;color:#AE0000}
+.table-print-td3_1{background:#EFEFEF;height:20px;text-align:right;color:#AE0000}
+.table-print .input1  {width:90%;height:18px;border:1px solid #CCC;}
+.table-print .input2  {width:95%;height:18px;border:0px;border-bottom:1px solid #CCC;}
+.table-print .input3  {width:85%;height:18px;border:1px solid #CCC;}
+.table-print .textarea{width:90%;height:98%;overflow:auto;border:1px solid #CCC;}
+/************************以下为GIS地图DIV的样式************************/
+.div-open			  {border:1px solid #9B9B9B;line-height:20px;}
+.div-open-td1		  {background:#EFEFEF;font-weight:bold;padding-left:5px;}
+.div-open-td2		  {background:#FFF;padding-left:5px;}
+
+td.zk                 {background:url(../images/right/layout-topbg.gif) repeat-x;height:40px;padding-left:1px}
+td.zk a              {color:#ffffff;padding-left:5px;padding-right:3px;font-size:12px;padding-top:3px;line-height:20px;font-weight:bold;}
+td.zk a:hover        {text-decoration:underline;font-weight:bold;font-size:12px;}
+td.zk img            {float:right;cursor:pointer}
+div.layout           {width:100%;margin-top:1px;position:absolute;top:-30;right:0px;z-index:10;background:#ffffff;border:#6eb9b2 2px solid}
+div.divin            {width:100%;overflow-y:auto;height:100%;POSITION: relative;padding-bottom:5px}
+table.lay            {border:1px solid #9AC1E0;width:98%;height:70px;margin-top:6px;}
+table.lay .tit       {border-bottom:1px dashed #9AC1E0;color:#000;font-size:14px;height:30px;background:#E3F7FE}
+table.lay .tit img   {float:right;cursor:pointer}
+table.lay .tit strong {float:left}
+
+.locked              {position:relative;top:expression(this.offsetParent.scrollTop-2);}
+.scrollbar           {SCROLLBAR-FACE-COLOR: #F0F9FD;  SCROLLBAR-HIGHLIGHT-COLOR: #9AB9D6; SCROLLBAR-SHADOW-COLOR: #9AB9D6; SCROLLBAR-3DLIGHT-COLOR: #ebebe4; SCROLLBAR-ARROW-COLOR: #73ADDD; SCROLLBAR-TRACK-COLOR: #ffffff; SCROLLBAR-DARKSHADOW-COLOR: #ebebe4}
+
+/********代成华 添加**********/
+div.layoutlp           {width:760px;margin-top:1px;position:absolute;top:-25;left:31px;z-index:10;background:#ffffff;border:#307FCE 2px solid}
+div.divinlp            {width:100%;overflow-y:auto;height:170px;POSITION: relative;padding-bottom:10px}

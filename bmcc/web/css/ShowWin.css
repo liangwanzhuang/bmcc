@@ -1,0 +1,53 @@
+﻿.pop_box{
+    z-index: 9999; /*这个数值要足够大，才能够显示在最上层*/
+	display: none;
+	position: absolute;
+	background: #FFF;
+	border: 1px solid #373737;
+	width:580px;
+	height:470px;
+}       
+.p_box_body{
+    clear: both;
+    padding: 5px;
+    height:100%;
+    /*white-space: pre-wrap;	/* CSS3 */	
+    /*white-space: -moz-pre-wrap;	/* Firefox */	
+    /*white-space: -pre-wrap;	/* Opera <7 */	
+    /*white-space: -o-pre-wrap;	/* Opera 7 */	
+    word-wrap: break-word;	/* IE */
+}
+.p_head{
+    height:30px;
+    background:url(../Images/dlg_bg.png) repeat-x center;
+    background-color:#3A6EA5;
+    margin:0px;
+    padding:0px;
+}
+.p_h_title{
+    float: left;
+    height: 30px;
+    line-height:30px; 
+    width:300px;
+    font-size:12px;
+    font-weight: bold;
+    font-family:微软雅黑;
+    color:#fff;
+    text-indent:10px;
+}
+.p_h_title span{
+    cursor:pointer;
+    }
+.p_h_x{
+    float:right;
+    margin-top:2px;
+    margin-right:3px;
+    height: 30px;
+    width:30px;
+    line-height:30px;
+    color:#F00;
+	font-size: 12px;
+	font-weight: bold;
+    font-family:微软雅黑;
+	cursor:pointer;
+}

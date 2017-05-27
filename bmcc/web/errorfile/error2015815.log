@@ -1,0 +1,52 @@
+﻿发生错误时间：2015/8/18 星期二 下午 11:36:24
+错误的SQL： insert into tb_log (logID,userID,logDate,logModal,logContent,logIP,logDemo) values ('d29a32e7-aa2c-4168-897e-0dab6a0c523e','356a601e-9de0-4bf5-93ac-2173ac3f5a43',  '2015/8/18 星期二 下午 11:36:23', '用户登录','用户【硕科】在2015/8/18 星期二 下午 11:36:23成功登录系统','127.0.0.1','用户【硕科】在2015/8/18 星期二 下午 11:36:23成功登录系统') 
+错误的内容：System.Data.SqlClient.SqlException (0x80131904): 从字符串转换日期和/或时间时，转换失败。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 DataBaseAccessLib.DBAccess`3.ExecuteNonQuery(String commndText, CommandType type, IDbDataParameter[] paraList)
+ClientConnectionId:cdc3fb40-defa-49c9-8751-9a22a5ad4755
+Error Number:241,State:1,Class:16
+发生错误时间：2015/8/18 星期二 下午 11:42:56
+错误的SQL： insert into tb_log (logID,userID,logDate,logModal,logContent,logIP,logDemo) values ('b23cc8f6-2325-46ea-89ce-082c8e6a2829','356a601e-9de0-4bf5-93ac-2173ac3f5a43',  '2015/8/18 星期二 下午 11:42:56', '用户登录','用户【硕科】在2015/8/18 星期二 下午 11:42:56成功登录系统','127.0.0.1','用户【硕科】在2015/8/18 星期二 下午 11:42:56成功登录系统') 
+错误的内容：System.Data.SqlClient.SqlException (0x80131904): 从字符串转换日期和/或时间时，转换失败。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 DataBaseAccessLib.DBAccess`3.ExecuteNonQuery(String commndText, CommandType type, IDbDataParameter[] paraList)
+ClientConnectionId:b6891f25-702b-4bf0-bc89-81ff6a9ca38b
+Error Number:241,State:1,Class:16
+发生错误时间：2015/8/18 星期二 下午 11:44:52
+错误的SQL： insert into tb_log (logID,userID,logDate,logModal,logContent,logIP,logDemo) values ('66c9cef4-a38a-446d-b42c-224297f4e8da','356a601e-9de0-4bf5-93ac-2173ac3f5a43',  '2015/8/18 星期二 下午 11:44:52', '用户登录','用户【硕科】在2015/8/18 星期二 下午 11:44:52成功登录系统','127.0.0.1','用户【硕科】在2015/8/18 星期二 下午 11:44:52成功登录系统') 
+错误的内容：System.Data.SqlClient.SqlException (0x80131904): 从字符串转换日期和/或时间时，转换失败。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 DataBaseAccessLib.DBAccess`3.ExecuteNonQuery(String commndText, CommandType type, IDbDataParameter[] paraList)
+ClientConnectionId:b6891f25-702b-4bf0-bc89-81ff6a9ca38b
+Error Number:241,State:1,Class:16
+发生错误时间：2015/8/18 星期二 下午 11:59:00
+错误的SQL： insert into tb_log (logID,userID,logDate,logModal,logContent,logIP,logDemo) values ('26d5248c-8b46-4733-bb5a-8d050f7609aa','356a601e-9de0-4bf5-93ac-2173ac3f5a43',  '2015/8/18 星期二 下午 11:58:59', '用户登录','用户【硕科】在2015/8/18 星期二 下午 11:58:59成功登录系统','127.0.0.1','用户【硕科】在2015/8/18 星期二 下午 11:58:59成功登录系统') 
+错误的内容：System.Data.SqlClient.SqlException (0x80131904): 从字符串转换日期和/或时间时，转换失败。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 DataBaseAccessLib.DBAccess`3.ExecuteNonQuery(String commndText, CommandType type, IDbDataParameter[] paraList)
+ClientConnectionId:5e163bd5-0afb-4ee3-987c-e8a6619b2272
+Error Number:241,State:1,Class:16
